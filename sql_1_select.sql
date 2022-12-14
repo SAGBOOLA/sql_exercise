@@ -69,3 +69,4 @@ SELECT * FROM Country WHERE Indepyear IS NULL AND Population > 1000000;
 #
 # 18: Get countries with a SurfaceArea below 10 and a defined LifeExpectancy
 SELECT * FROM COUNTRY WHERE SurfaceArea < 10 AND LifeExpectancy IS NOT NULL;
+#
